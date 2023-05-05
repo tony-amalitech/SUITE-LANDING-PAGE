@@ -1,0 +1,271 @@
+.main {
+    background-color: #FAF8F6;
+  }
+  
+  /* Styling the nav elements */
+  .nav {
+    display:flex;
+    justify-content: space-between;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  
+  .logo1 {
+    height: 1.5rem;
+  }
+  
+  .butto1 {
+    padding: 6px 6px 6px 6px;
+    border-radius: 5px;
+    border-style: none;
+  }
+  
+  .butto1:hover {
+    background-color:#172339 ;
+    color: white;
+  }
+  
+  
+  /* styling the section one */
+  .section-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    margin-top: 4rem;
+  
+    margin-bottom: 4rem;
+  }
+  
+  .one {
+    margin-left: 6rem;
+    position: absolute;
+    z-index: 2;
+  }
+  
+  .image-hero {
+    padding-left: 32rem;
+  }
+  
+  .text-one {
+    font-size: 72px;
+  }
+  
+  .line{
+    padding-left: 18rem;
+    width: 200px;
+    margin-top: 2rem;
+  }
+  
+  .butto2 {
+    margin-top: 2rem;
+    padding: 6px 6px 6px 6px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #172339;
+    color: white;
+  }
+  
+  .butto2:hover {
+    background-color:#A060FF ;
+    color: white;
+  }
+  
+  .three {
+    padding-left: 3rem;
+    margin-top: 8rem;
+  }
+  
+  @media screen and (max-width: 1023px){
+    .text-one {
+      font-size: 50px;
+    }
+  
+    .image-hero {
+      padding-left: 17rem;
+    }
+  
+    .line {
+      padding-left: 12rem;
+      width: 10rem;
+    }
+  }
+  
+  /* Tablet */
+  @media screen and (max-width: 768px){
+    .text-one {
+      font-size: 40px;
+    }
+  
+    .image-hero {
+      padding-left: 20rem;
+      height: 30rem;
+    }
+  
+    .section-one {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      margin-top: 4rem;
+    }
+  
+    .line{
+      padding-left: 4rem;
+      width: 200px;
+      margin-top: 2rem;
+    }
+  
+    .three {
+      grid-row: 2 / 3;
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+  
+  
+  @media screen and (max-width: 620px){
+    .text-one {
+      font-size: 30px;
+    }
+  
+    .image-hero {
+      padding-left: 15rem;
+      height: 25rem;
+    }
+  
+    .section-one {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      margin-top: 4rem;
+    }
+  
+    .line{
+      padding-left: 7rem;
+      width: 100px;
+      margin-top: 2rem;
+    }
+  
+    .three {
+      grid-row: 2 / 3;
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+  
+  @media screen and (max-width: 490px){
+    .text-one {
+      font-size: 20px;
+      padding-right: 3rem;
+    }
+  
+    .image-hero {
+      padding-left: 6rem;
+      padding-top: 2rem;
+      height: 17rem;
+    }
+  
+    .section-one {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      margin-top: 4rem;
+    }
+  
+    .line{
+      padding-left: 4rem;
+      width: 80px;
+      margin-top: 2rem;
+    }
+  
+    .one {
+      padding-right: 5rem;
+    }
+    .two {
+      grid-row: 2 / 3;
+     }
+  
+    .three {
+      grid-row: 3 / 4;
+      display: flex;
+      justify-content: space-around;
+    }
+  
+    .nav {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+  
+  
+  /* Styling Section two */
+  
+  .section-two {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    position:absolute;
+    z-index: 2;
+    width: 98%;
+    height: 24.6rem;
+    
+  }
+  
+  .jeremy {
+    position: absolute;
+    z-index: 1;
+    margin-left: 9rem;
+    margin-bottom: 2rem;
+  }
+  
+  .section-two-image {
+    padding-bottom: 1rem;
+  }
+  
+  .section-two-text {
+    background-color:  #172339;
+    width: 80%;
+    z-index: -1;
+    margin-top: 3rem;
+    padding-bottom: 2rem;
+    border-radius: 7px;
+  }
+  
+  .texttwo {
+    display: flex;
+   
+  }
+  
+  .curve-line-two {
+    padding-left: 26rem;
+    padding-top: 6rem;
+    padding-right: 3rem;
+  }
+  
+  
+  .section-one-text {
+    padding-top: 4rem;
+  }
+  
+  /* styling footer */
+  
+  .footer {
+    position: relative;
+    z-index: 1;
+    background-color: #F3EDE7;
+    height: 23rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    margin-top: 20rem;
+  }
+  
+  .footlogo {
+    padding-bottom: 4rem;
+  }
+  
+  .copyright {
+    padding-bottom: 4rem;
+  }
+  
+  .footer-icons {
+    padding-bottom: 4rem;
+  }
