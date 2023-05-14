@@ -21,6 +21,7 @@
     padding: 6px 6px 6px 6px;
     border-radius: 5px;
     border-style: none;
+    width: 219px;
   }
   
   .butto1:hover {
@@ -46,6 +47,11 @@
   
   .image-hero {
     padding-left: 37rem;
+   
+  }
+
+  .two {
+    height: 600px;
   }
   
   .text-one {
@@ -76,6 +82,7 @@
     border-style: none;
     background-color: #172339;
     color: white;
+    width: 256px;
   }
   
   .butto2:hover {
@@ -284,8 +291,9 @@
   .jeremy {
     position: absolute;
     z-index: 1;
-    margin-left: 9rem;
+    margin-left: 5rem;
     margin-bottom: 2rem;
+    height: 550px;
   }
   
   .section-two-image {
