@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap');
+
+
 .main {
     background-color: #FAF8F6;
   }
@@ -42,16 +45,27 @@
   }
   
   .image-hero {
-    padding-left: 32rem;
+    padding-left: 37rem;
   }
   
   .text-one {
+    font-family: Epilogue;
+    font-weight: 400;
     font-size: 72px;
+    color:#172339;
   }
   
+  .text-two {
+    font-family: Epilogue;
+    font-weight: 400;
+    font-size: 18px;
+    color: #49566D;
+  }
+  
+
   .line{
     padding-left: 18rem;
-    width: 200px;
+    width: 290px;
     margin-top: 2rem;
   }
   
@@ -65,15 +79,34 @@
   }
   
   .butto2:hover {
-    background-color:#A060FF ;
+    background: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%); 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     color: white;
   }
   
   .three {
-    padding-left: 3rem;
+    padding-left: 11rem;
     margin-top: 8rem;
   }
   
+  .num {
+    font-family: Epilogue;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 7px;
+    letter-spacing: -0.5;
+    color: #172339;
+  }
+
+  .num-text {
+    font-family: Epilogue;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 2.5px;
+    color: #49566D;
+  }
+
   @media screen and (max-width: 1023px){
     .text-one {
       font-size: 50px;
