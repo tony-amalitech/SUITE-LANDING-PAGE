@@ -86,25 +86,64 @@
   
   .three {
     padding-left: 11rem;
-    margin-top: 8rem;
+    margin-top: 5rem;
   }
   
   .num {
+    position: relative;
     font-family: Epilogue;
     font-weight: 700;
     font-size: 48px;
     line-height: 7px;
-    letter-spacing: -0.5;
+    letter-spacing: -0.3;
     color: #172339;
   }
 
   .num-text {
+    z-index: 2;
+    font-style: normal;
     font-family: Epilogue;
     font-weight: 400;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 30px;
     letter-spacing: 2.5px;
     color: #49566D;
+    margin-bottom: 14rem;
+  }
+
+  .three-1 {
+    width:198px;
+    height: 83px;
+    top: 279px;
+  }
+
+  .three-2 {
+    width:198px;
+    height: 83px;
+    top: 425px;
+  }
+  .three-3 {
+    width:198px;
+    height: 83px;
+    top: 571px;
+  }
+
+  .third-t {
+    font-family: Epilogue;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+   color: #FAF8F6;
+   line-height: 32px;
+  }
+
+  .fouth-t {
+    font-family: Epilogue;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color:  #F3EDE7;
   }
 
   @media screen and (max-width: 1023px){
@@ -260,6 +299,7 @@
     margin-top: 3rem;
     padding-bottom: 2rem;
     border-radius: 7px;
+    height: 120%;
   }
   
   .texttwo {
@@ -278,6 +318,27 @@
     padding-top: 4rem;
   }
   
+  .first-text {
+    font-family: Epilogue;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+  }
+
+  .second-text {
+    font-family: Epilogue;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    letter-spacing: 0.1px;
+  }
+
+.third-text {
+  position: absolute;
+}
+
+
+
   /* styling footer */
   
   .footer {
@@ -288,15 +349,22 @@
     display: flex;
     justify-content: space-around;
     align-items: end;
-    margin-top: 20rem;
+    margin-top: 30rem;
   }
-  
+
+ 
   .footlogo {
     padding-bottom: 4rem;
   }
   
   .copyright {
-    padding-bottom: 4rem;
+    font-family: Epilogue;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    padding-bottom: 2.5rem;
+    color: #49566D;
   }
   
   .footer-icons {
