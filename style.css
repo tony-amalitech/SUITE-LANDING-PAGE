@@ -1,380 +1,407 @@
-@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap");
 
-
-.main {
-    background-color: #FAF8F6;
-  }
-  
-  /* Styling the nav elements */
-  .nav {
-    display:flex;
-    justify-content: space-between;
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
-  
-  .logo1 {
-    height: 1.5rem;
-  }
-  
-  .butto1 {
-    padding: 6px 6px 6px 6px;
-    border-radius: 5px;
-    border-style: none;
-    width: 219px;
-  }
-  
-  .butto1:hover {
-    background-color:#172339 ;
-    color: white;
-  }
-  
-  
-  /* styling the section one */
-  .section-one {
-    display: grid;
-    grid-template-columns: 1fr 1fr auto;
-    margin-top: 4rem;
-  
-    margin-bottom: 4rem;
-  }
-  
-  .one {
-    margin-left: 6rem;
-    position: absolute;
-    z-index: 2;
-  }
-  
-  .image-hero {
-    padding-left: 37rem;
-   
-  }
-
-  .two {
-    height: 600px;
-  }
-  
-  .text-one {
-    font-family: Epilogue;
-    font-weight: 400;
-    font-size: 72px;
-    color:#172339;
-  }
-  
-  .text-two {
-    font-family: Epilogue;
-    font-weight: 400;
-    font-size: 18px;
-    color: #49566D;
-  }
-  
-
-  .line{
-    padding-left: 18rem;
-    width: 290px;
-    margin-top: 2rem;
-  }
-  
-  .butto2 {
-    margin-top: 2rem;
-    padding: 6px 6px 6px 6px;
-    border-radius: 5px;
-    border-style: none;
-    background-color: #172339;
-    color: white;
-    width: 256px;
-  }
-  
-  .butto2:hover {
-    background: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%); 
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    color: white;
-  }
-  
-  .three {
-    padding-left: 11rem;
-    margin-top: 5rem;
-  }
-  
-  .num {
-    position: relative;
-    font-family: Epilogue;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 7px;
-    letter-spacing: -0.3;
-    color: #172339;
-  }
-
-  .num-text {
-    z-index: 2;
-    font-style: normal;
-    font-family: Epilogue;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 2.5px;
-    color: #49566D;
-    margin-bottom: 14rem;
-  }
-
-  .three-1 {
-    width:198px;
-    height: 83px;
-    top: 279px;
-  }
-
-  .three-2 {
-    width:198px;
-    height: 83px;
-    top: 425px;
-  }
-  .three-3 {
-    width:198px;
-    height: 83px;
-    top: 571px;
-  }
-
-  .third-t {
-    font-family: Epilogue;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-   color: #FAF8F6;
-   line-height: 32px;
-  }
-
-  .fouth-t {
-    font-family: Epilogue;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    color:  #F3EDE7;
-  }
-
-  @media screen and (max-width: 1023px){
-    .text-one {
-      font-size: 50px;
-    }
-  
-    .image-hero {
-      padding-left: 17rem;
-    }
-  
-    .line {
-      padding-left: 12rem;
-      width: 10rem;
-    }
-  }
-  
-  /* Tablet */
-  @media screen and (max-width: 768px){
-    .text-one {
-      font-size: 40px;
-    }
-  
-    .image-hero {
-      padding-left: 20rem;
-      height: 30rem;
-    }
-  
-    .section-one {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
-      margin-top: 4rem;
-    }
-  
-    .line{
-      padding-left: 4rem;
-      width: 200px;
-      margin-top: 2rem;
-    }
-  
-    .three {
-      grid-row: 2 / 3;
-      display: flex;
-      justify-content: space-around;
-    }
-  }
-  
-  
-  @media screen and (max-width: 620px){
-    .text-one {
-      font-size: 30px;
-    }
-  
-    .image-hero {
-      padding-left: 15rem;
-      height: 25rem;
-    }
-  
-    .section-one {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
-      margin-top: 4rem;
-    }
-  
-    .line{
-      padding-left: 7rem;
-      width: 100px;
-      margin-top: 2rem;
-    }
-  
-    .three {
-      grid-row: 2 / 3;
-      display: flex;
-      justify-content: space-around;
-    }
-  }
-  
-  @media screen and (max-width: 490px){
-    .text-one {
-      font-size: 20px;
-      padding-right: 3rem;
-    }
-  
-    .image-hero {
-      padding-left: 6rem;
-      padding-top: 2rem;
-      height: 17rem;
-    }
-  
-    .section-one {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
-      margin-top: 4rem;
-    }
-  
-    .line{
-      padding-left: 4rem;
-      width: 80px;
-      margin-top: 2rem;
-    }
-  
-    .one {
-      padding-right: 5rem;
-    }
-    .two {
-      grid-row: 2 / 3;
-     }
-  
-    .three {
-      grid-row: 3 / 4;
-      display: flex;
-      justify-content: space-around;
-    }
-  
-    .nav {
-      padding-left: 1rem;
-      padding-right: 1rem;
-    }
-  }
-  
-  
-  /* Styling Section two */
-  
-  .section-two {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    justify-content: center;
-    position:absolute;
-    z-index: 2;
-    width: 98%;
-    height: 24.6rem;
-    
-  }
-  
-  .jeremy {
-    position: absolute;
-    z-index: 1;
-    margin-left: 5rem;
-    margin-bottom: 2rem;
-    height: 550px;
-  }
-  
-  .section-two-image {
-    padding-bottom: 1rem;
-  }
-  
-  .section-two-text {
-    background-color:  #172339;
-    width: 80%;
-    z-index: -1;
-    margin-top: 3rem;
-    padding-bottom: 2rem;
-    border-radius: 7px;
-    height: 120%;
-  }
-  
-  .texttwo {
-    display: flex;
-   
-  }
-  
-  .curve-line-two {
-    padding-left: 26rem;
-    padding-top: 6rem;
-    padding-right: 3rem;
-  }
-  
-  
-  .section-one-text {
-    padding-top: 4rem;
-  }
-  
-  .first-text {
-    font-family: Epilogue;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-  }
-
-  .second-text {
-    font-family: Epilogue;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    letter-spacing: 0.1px;
-  }
-
-.third-text {
-  position: absolute;
+#body {
+  background-color: #faf8f6;
 }
 
+#button1 {
+  background-color: white;
+  border-color: #172339;
+  cursor: pointer;
+}
 
+#button1:hover {
+  background-color: #172339;
+  color: white;
+}
 
-  /* styling footer */
-  
-  .footer {
-    position: relative;
-    z-index: 1;
-    background-color: #F3EDE7;
-    height: 23rem;
+/* styling the main content */
+#button2 {
+  background-color: #172339;
+  color: white;
+  cursor: pointer;
+}
+
+#button2:hover {
+  background: linear-gradient(135deg, #a060ff 0%, #cb30e3 49.21%, #ffa84e 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: white;
+}
+
+#main-text-1 {
+  position: absolute;
+  font-family: Epilogue;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 78px;
+  letter-spacing: -1px;
+  color: #172339;
+}
+
+#main-text-2 {
+  margin-top: 18rem;
+  font-family: Epilogue;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #49566d;
+}
+
+#line {
+  margin-left: 14rem;
+  width: 13rem;
+}
+#image-hero {
+  width: 350px;
+  height: 600px;
+}
+#main-text-3 {
+  margin-top: 9rem;
+}
+
+#header-4 {
+  color: #172339;
+  font-family: Epilogue;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.5px;
+}
+
+#header-6 {
+  color: #49566d;
+  font-family: Epilogue;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 2.5px;
+}
+
+/* styling jeremy and text */
+#main2-text {
+  background-color: #172339;
+  margin-top: 13rem;
+  position: absolute;
+  padding-left: 12rem;
+  margin-left: 7.4rem;
+  width: 85%;
+  height: 30rem;
+  align-items: center;
+  border-radius: 0.7rem;
+}
+
+#line2 {
+  padding-right: 3rem;
+}
+
+#jeremy1 {
+  width: 359.81px;
+  height: 589.56px;
+}
+
+#jeremy {
+  margin-top: 6rem;
+  padding-left: 10rem;
+  position: absolute;
+  z-index: 1;
+}
+
+#works {
+  font-family: Epilogue;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: -0.5px;
+  font-size: 48px;
+}
+
+#works-text {
+  font-family: Epilogue;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: -0.1px;
+  font-size: 20px;
+  color: #f3ede7;
+}
+
+#rob {
+  font-family: Epilogue;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.18px;
+  font-size: 18px;
+  color: #faf8f6;
+}
+
+#cmo {
+  font-family: Epilogue;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 2.5px;
+  font-size: 16px;
+  color: #f3ede7;
+}
+
+/* styling for footer */
+
+#footer {
+  background-color: #f3ede7;
+  display: flex;
+  margin-top: 32rem;
+  height: 25rem;
+  justify-content: space-around;
+  align-items: end;
+  padding-bottom: 5rem;
+}
+
+#copyright {
+  font-family: Epilogue;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 32px;
+}
+
+#facebook {
+  cursor: pointer;
+}
+
+#facebook:hover {
+  background: #172339;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+#twitter {
+  cursor: pointer;
+}
+
+#twitter:hover {
+  background: #172339;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+#instagram {
+  cursor: pointer;
+}
+
+#instagram:hover {
+  background: #172339;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 768px) {
+  #main-text-3 {
     display: flex;
-    justify-content: space-around;
-    align-items: end;
-    margin-top: 30rem;
+    justify-content: center;
   }
 
- 
-  .footlogo {
-    padding-bottom: 4rem;
+  #image-hero {
+    width: 281px;
+    height: 428px;
   }
-  
-  .copyright {
-    font-family: Epilogue;
+
+  #main-text-1 {
+    font-size: 50px;
+  }
+
+  #jeremy1 {
+    width: 220px;
+    height: 330px;
+  }
+
+  #jeremy {
+    margin-top: 2.5rem;
+    padding-bottom: 2rem;
+    padding-left: 14rem;
+    position: absolute;
+    z-index: 1;
+  }
+
+  #main2-text {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    height: 46rem;
+    margin-left: 3rem;
+  }
+
+  #works {
+    font-family: "Epilogue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #faf8f6;
+  }
+
+  #works-text {
+    font-family: "Epilogue";
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 32px;
-    padding-bottom: 2.5rem;
-    color: #49566D;
+    text-align: center;
+    letter-spacing: 0.09px;
   }
-  
-  .footer-icons {
-    padding-bottom: 4rem;
+
+  #rob {
+    text-align: center;
+    font-size: 15px;
   }
+
+  #cmo {
+    text-align: center;
+    font-size: 13px;
+  }
+
+  #j1 {
+    margin-right: 9rem;
+    margin-bottom: 0.9rem;
+  }
+
+  #j2 {
+    margin-right: 9rem;
+    width: 20rem;
+  }
+
+  #footer {
+    background-color: #f3ede7;
+    display: flex;
+    margin-top: 36rem;
+    height: 38rem;
+    justify-content: space-around;
+    align-items: end;
+    padding-bottom: 5rem;
+  }
+}
+
+@media screen and (max-width: 574px) {
+  #main-text-3 {
+    justify-content: center;
+  }
+
+  #image-hero {
+    width: 281px;
+    height: 428px;
+  }
+
+  #main-text-1 {
+    font-size: 40px;
+  }
+
+  #line {
+    margin-left: 10rem;
+    width: 7rem;
+  }
+
+  #jeremy1 {
+    width: 180px;
+    height: 280px;
+  }
+
+  #jeremy {
+    margin-top: 5rem;
+    padding-bottom: 1rem;
+    padding-left: 11rem;
+    position: absolute;
+    z-index: 1;
+  }
+
+  #works-text {
+    font-size: 12px;
+  }
+
+  #works {
+    font-size: 23px;
+  }
+
+  #rob {
+    font-size: 10px;
+  }
+
+  #cmo {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 443px) {
+  #main-text-3 {
+    display: column;
+    justify-content: center;
+  }
+
+  #image-hero {
+    margin-top: 3rem;
+    width: 281px;
+    height: 228px;
+    margin-bottom: -3rem;
+  }
+
+  #main-text-1 {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  #line {
+    margin-left: 8rem;
+    width: 8rem;
+  }
+  #header-4 {
+    font-size: 25px;
+    margin-right: 2rem;
+  }
+
+  #header-6 {
+    font-size: 10px;
+  }
+
+  #main-text-3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+    margin-bottom: 3rem;
+  }
+
+  #jeremy1 {
+    width: 150px;
+    height: 240px;
+  }
+
+  #jeremy {
+    margin-top: 8rem;
+    padding-bottom: 0.3rem;
+    padding-left: 8rem;
+    position: absolute;
+    z-index: 1;
+  }
+
+  #j1 {
+    margin-right: 14rem;
+    margin-bottom: 0.9rem;
+  }
+
+  #j2 {
+    margin-right: 13rem;
+    width: 14rem;
+  }
+
+  #footer {
+    background-color: #f3ede7;
+    display: flex;
+    flex-direction: column;
+    margin-top: 58.7rem;
+    height: 18rem;
+    align-items: center;
+    padding-bottom: 5rem;
+  }
+}
