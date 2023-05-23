@@ -617,3 +617,120 @@
  
 
 }
+
+@media screen and (max-width: 320px) {
+  #main-text-3 {
+    display: column;
+    justify-content: center;
+  }
+
+  #image-hero {
+    margin-top: 3rem;
+    width: 324px;
+    height: 258px;
+    margin-bottom: -3rem;
+  }
+
+  #main-text-1 {
+    font-size: 38px;
+    text-align: center;
+    line-height: 3rem;
+  }
+
+  #main-text-2 {
+    margin-top: 12rem;
+  }
+
+  #button2 {
+    width: 18rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  #button1 {
+    width: 15rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  #line {
+    width: 10rem;
+    margin-left: 11rem;
+  }
+  #line2 {
+    margin-left: 3rem;
+    width: 8rem;
+  }
+  #header-4 {
+    font-size: 45px;
+    margin-right: 2rem;
+  }
+
+  #header-6 {
+    font-size: 30px;
+  }
+
+  #main-text-3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+    padding-left: 3rem;
+  }
+
+  #jeremy1 {
+    width: 220px;
+    height: 360px;
+  }
+
+  #jeremy {
+    margin-top: 1rem;
+    padding-bottom: 0.3rem;
+    padding-left: 3.7rem;
+    position: absolute;
+    z-index: 1;
+  }
+
+  #j1 {
+    margin-right: 14rem;
+    margin-bottom: 0.9rem;
+  }
+
+  #j2 {
+    margin-right: 13rem;
+    width: 14rem;
+  }
+
+  #footer {
+    background-color: #f3ede7;
+    display: flex;
+    flex-direction: column;
+    margin-top: 58.7rem;
+    height: 18rem;
+    align-items: center;
+    padding-bottom: 5rem;
+  }
+
+  #main2-text {
+    background-color: #172339;
+    width: 85%;
+  }
+
+  #main2-text {
+    height: 46rem;
+    width: 100%;
+    margin-left: 0.8rem;
+  }
+
+  #header-4 {
+    font-size: 45px;
+    margin-left: 3rem;
+  }
+
+  #header-6 {
+    font-size: 30px;
+    padding-left: -2rem;
+  }
+
+ 
+}
