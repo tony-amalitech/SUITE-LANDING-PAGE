@@ -8,6 +8,9 @@
   background-color: white;
   border-color: #172339;
   cursor: pointer;
+  width: 14rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 #button1:hover {
@@ -15,7 +18,7 @@
   color: white;
 }
 
-/* styling the main content */
+/* styling the MAIN  content */
 #button2 {
   background-color: #172339;
   color: white;
@@ -32,7 +35,7 @@
   position: absolute;
   font-family: Epilogue;
   font-weight: 700;
-  font-size: 54px;
+  font-size: 72px;
   line-height: 70px;
   letter-spacing: -1px;
   color: #172339;
@@ -46,19 +49,20 @@
   line-height: 32px;
   letter-spacing: 0.1px;
   color: #49566d;
+  width: 22rem;
 }
 
 #line {
-  margin-left: 14rem;
-  width: 13rem;
+  margin-left: 19rem;
+  width: 18rem;
 }
-
-
 
 #image-hero {
   width: 350px;
   height: 600px;
+  margin-left: 7rem;
 }
+
 #main-text-3 {
   margin-top: 9rem;
 }
@@ -94,6 +98,12 @@
   height: 30rem;
   align-items: center;
   border-radius: 0.7rem;
+}
+
+#button2 {
+  width: 16rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 #line2 {
@@ -201,6 +211,34 @@
   opacity: 0.5;
 }
 
+@media  screen and (max-width: 1024px) {
+  #image-hero {
+    width: 300px;
+    height: 600px;
+    margin-left: 1rem;
+  }
+
+  #main-text-1 {
+    position: absolute;
+    font-family: Epilogue;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 70px;
+    letter-spacing: -1px;
+    color: #172339;
+  }
+
+  
+#line {
+  margin-left: 16rem;
+  width: 15rem;
+}
+}
+
+
+
+
+
 @media screen and (max-width: 768px) {
   #main-text-3 {
     display: flex;
@@ -209,11 +247,13 @@
 
   #image-hero {
     width: 281px;
-    height: 428px;
+    height: 518px;
+    padding-top: 2rem;
   }
 
   #main-text-1 {
-    font-size: 50px;
+    font-size: 60px;
+    
   }
 
   #jeremy1 {
@@ -352,7 +392,7 @@
   #image-hero {
     margin-top: 3rem;
     width: 381px;
-    height: 258px;
+    height: 268px;
     margin-bottom: -3rem;
   }
 
@@ -362,7 +402,7 @@
     line-height: 3rem;
   }
 
-  #main-text-2{
+  #main-text-2 {
     margin-top: 12rem;
   }
 
@@ -387,12 +427,12 @@
     width: 8rem;
   }
   #header-4 {
-    font-size: 25px;
+    font-size: 45px;
     margin-right: 2rem;
   }
 
   #header-6 {
-    font-size: 10px;
+    font-size: 30px;
   }
 
   #main-text-3 {
@@ -404,15 +444,14 @@
   }
 
   #jeremy1 {
-    width: 150px;
-    height: 240px;
-   
+    width: 220px;
+    height: 360px;
   }
 
   #jeremy {
-    margin-top: 8rem;
+    margin-top: 1rem;
     padding-bottom: 0.3rem;
-    padding-left: 10rem;
+    padding-left: 8rem;
     position: absolute;
     z-index: 1;
   }
@@ -441,4 +480,140 @@
     background-color: #172339;
     width: 85%;
   }
+
+  #main2-text {
+    height: 46rem;
+    width: 100%;
+    margin-left: 0.8rem;
+  }
+
+  #header-4 {
+    font-size: 45px;
+    margin-left: 3rem;
+  }
+
+  #header-6 {
+    font-size: 30px;
+    padding-left: -2rem;
+  }
+
+
+}
+
+@media screen and (max-width: 375px){
+  #main-text-3 {
+    display: column;
+    justify-content: center;
+  }
+
+  #image-hero {
+    margin-top: 3rem;
+    width: 324px;
+    height: 258px;
+    margin-bottom: -3rem;
+  }
+
+  #main-text-1 {
+    font-size: 41px;
+    text-align: center;
+    line-height: 3rem;
+  }
+
+  #main-text-2 {
+    margin-top: 12rem;
+  }
+
+  #button2 {
+    width: 18rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  #button1 {
+    width: 15rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  #line {
+    width: 11rem;
+    margin-left: 11rem;
+  }
+  #line2 {
+    margin-left: 3rem;
+    width: 8rem;
+  }
+  #header-4 {
+    font-size: 45px;
+    margin-right: 2rem;
+  }
+
+  #header-6 {
+    font-size: 30px;
+  }
+
+  #main-text-3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+    padding-left: 3rem;
+  }
+
+  #jeremy1 {
+    width: 220px;
+    height: 360px;
+  }
+
+  #jeremy {
+    margin-top: 1rem;
+    padding-bottom: 0.3rem;
+    padding-left: 6rem;
+    position: absolute;
+    z-index: 1;
+  }
+
+  #j1 {
+    margin-right: 14rem;
+    margin-bottom: 0.9rem;
+  }
+
+  #j2 {
+    margin-right: 13rem;
+    width: 14rem;
+  }
+
+  #footer {
+    background-color: #f3ede7;
+    display: flex;
+    flex-direction: column;
+    margin-top: 58.7rem;
+    height: 18rem;
+    align-items: center;
+    padding-bottom: 5rem;
+  }
+
+  #main2-text {
+    background-color: #172339;
+    width: 85%;
+  }
+
+  #main2-text {
+    height: 46rem;
+    width: 100%;
+    margin-left: 0.8rem;
+  }
+
+  #header-4 {
+    font-size: 45px;
+    margin-left: 3rem;
+  }
+
+  #header-6 {
+    font-size: 30px;
+    padding-left: -2rem;
+  }
+
+ 
+
 }
