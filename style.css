@@ -33,7 +33,7 @@
   font-family: Epilogue;
   font-weight: 700;
   font-size: 54px;
-  line-height: 78px;
+  line-height: 70px;
   letter-spacing: -1px;
   color: #172339;
 }
@@ -52,6 +52,9 @@
   margin-left: 14rem;
   width: 13rem;
 }
+
+
+
 #image-hero {
   width: 350px;
   height: 600px;
@@ -221,7 +224,7 @@
   #jeremy {
     margin-top: 2.5rem;
     padding-bottom: 2rem;
-    padding-left: 14rem;
+    padding-left: 18rem;
     position: absolute;
     z-index: 1;
   }
@@ -290,6 +293,12 @@
     justify-content: center;
   }
 
+  #button2 {
+    width: 18rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
   #image-hero {
     width: 281px;
     height: 428px;
@@ -342,18 +351,39 @@
 
   #image-hero {
     margin-top: 3rem;
-    width: 281px;
-    height: 228px;
+    width: 381px;
+    height: 258px;
     margin-bottom: -3rem;
   }
 
   #main-text-1 {
-    font-size: 35px;
+    font-size: 45px;
     text-align: center;
+    line-height: 3rem;
+  }
+
+  #main-text-2{
+    margin-top: 12rem;
+  }
+
+  #button2 {
+    width: 18rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  #button1 {
+    width: 15rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   #line {
-    margin-left: 8rem;
+    width: 11rem;
+    margin-left: 11rem;
+  }
+  #line2 {
+    margin-left: 3rem;
     width: 8rem;
   }
   #header-4 {
@@ -370,17 +400,19 @@
     flex-direction: column;
     margin-left: 4rem;
     margin-bottom: 3rem;
+    padding-left: 3rem;
   }
 
   #jeremy1 {
     width: 150px;
     height: 240px;
+   
   }
 
   #jeremy {
     margin-top: 8rem;
     padding-bottom: 0.3rem;
-    padding-left: 8rem;
+    padding-left: 10rem;
     position: absolute;
     z-index: 1;
   }
@@ -403,5 +435,10 @@
     height: 18rem;
     align-items: center;
     padding-bottom: 5rem;
+  }
+
+  #main2-text {
+    background-color: #172339;
+    width: 85%;
   }
 }
