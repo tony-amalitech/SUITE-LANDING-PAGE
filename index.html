@@ -27,9 +27,9 @@
   </head>
 
   <body id="body">
-    <header>
+    <header id="header">
       <!-- place navbar here -->
-      <div class="container-sm mt-4 d-flex justify-content-between">
+      <div class="container-sm mt-4 d-flex justify-content-between" id="head">
         <div>
           <img src="./assets/logo.svg" alt="logo" id="logo1" />
         </div>
@@ -42,21 +42,21 @@
       </div>
     </header>
 
-    <main class="container mt-5 ">
+    <main class="container mt-5" >
       <!-- place main content here -->
-      <div class="row">
+      <div class="row" id="first-container">
         <div class="col mt-5">
-          <p id="main-text-1" >
+          <p id="super-solution-text">
             <img
               src="./assets/pattern-curved-line-1.svg"
               alt="line"
-              id="line"
+              id="arc"
             />
             <br />
             A <strong>super solution</strong> <br />
             for your <strong>business.</strong>
           </p>
-          <p id="main-text-2">
+          <p id="marketing-sales-text">
             Our marketing and sales automations <br />
             help you your outreach to get <br />
             more leads for your company
@@ -65,66 +65,65 @@
             Request Beta Access
           </button>
         </div>
-        <div class="col" id="image">
+        <div class="col" id="middle-image">
           <img
             src="./assets/image-hero-portrait.png"
             alt="hero-image"
             id="image-hero"
           />
         </div>
-        <div class="col align-content-center" id="main-text-3" >
-          <div class="ms-5" id="num-text" >
-            <p class="h4" id="header-4">2k+</p>
-            <p class="h6" id="header-6">COMPANY</p>
+        <div class="col align-content-center" id="statistics" >
+          <div class="ms-5" id="statistics-item-1" >
+            <p class="h4" id="stats1">2k+</p>
+            <p class="h6" id="stats-text1">COMPANY</p>
           </div>
           <br />
-          <div class="ms-5" id="num-text">
-            <p class="h4" id="header-4">8</p>
-            <p class="h6" id="header-6">LANGUAGE</p>
+          <div class="ms-5" id="statistics-item-2">
+            <p class="h4" id="stats2">8</p>
+            <p class="h6" id="stats-text2">LANGUAGE</p>
           </div>
           <br />
-          <div class="ms-5" id="num-text">
-            <p class="h4" id="header-4">1.2M</p>
-            <p class="h6" id="header-6" >LEADS</p>
+          <div class="ms-5" id="statistics-item-3">
+            <p class="h4" id="stats3">1.2M</p>
+            <p class="h6" id="stats-text3" >LEADS</p>
           </div>
         </div>
       </div>
     </main>
 
-    <!-- Jeremy -->
-    <div class="row" id="row-element">
-      <div class="col" id="jeremy">
+     <!-- Jeremy -->
+     <div  class="container" id="jeremy-image"  >
         <img
           src="./assets/image-jeremy-small.png"
           alt="male-image"
-          id="jeremy1"
+          id="jeremy"
         />
       </div>
 
-      <!-- Jeremy's text -->
-      <div class="container" id="back">
-        <div class="row" id="cont-row">
-          <div class="col d-flex justify-content-center" id="main2-text">
-            <div id="j1">
+      <!-- other text -->
+      <div class="container" id="jeremy-text">
+        <div class="row">
+          <div class="col d-flex justify-content-center" id="change-to-column">
+            <div id="arc-two">
               <img
                 src="./assets/pattern-curved-line-2.svg"
-                alt="line"
-                id="line2"
+                alt="arc"
+                id="arc2"
               />
             </div>
             
-            <div id="j2" >
-              <p id="works" style="color: white">It just <strong>works.</strong></p>
-              <p style="color: white" id="works-text">
-                "I realy like how it is an all-in-one <br />
-                solution that handles many of the <br />
-                tasks that you would normally need <br />
-                seperate tools to do the same job. <br />
+            <div id="paragraph-container">
+              <p id="it-just-works" style="color: white">It just <strong>works.</strong></p>
+              <p style="color: white;" id="paragraph" >
+                "I realy like how it is an all-in-one 
+                solution that handles many of the 
+                tasks that you would normally need 
+                seperate tools to do the same job. 
                 This thing is a miracle worker"
               </p>
               <div>
-                <p style="color: white" id="rob">JEREMY ROBINSON</p>
-                <p style="color: white" id="cmo">CMO, FYLO</p>
+                <p  id="rob">JEREMY ROBINSON</p>
+                <p  id="cmo">CMO, FYLO</p>
               </div>
             </div>
           </div>
@@ -134,15 +133,15 @@
 
     <footer class="container-fluid" id="footer">
       <!-- place footer here -->
-      <div class="footer-logo">
+      <div id="footer-logo">
         <img src="./assets/logo.svg" alt="logo" class="logo1 footlogo" />
       </div>
 
-      <div class="footer-text">
+      <div id="Copyright">
         <p id="copyright">Copyright - Suite</p>
       </div>
 
-      <div class="footer-icons">
+      <div id="footer-icons">
         <a href="./assets/icon-facebook.svg"></a>
         <img
           src="./assets/icon-facebook.svg"
@@ -158,6 +157,8 @@
       </div>
     </footer>
 
+   
+    <br> <br> <br>
     <!-- Bootstrap JavaScript Libraries -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"

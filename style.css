@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap");
 
+
 #body {
   background-color: #faf8f6;
 }
@@ -8,9 +9,9 @@
   background-color: white;
   border-color: #172339;
   cursor: pointer;
-  width: 14rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  width: 12rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 #button1:hover {
@@ -18,11 +19,17 @@
   color: white;
 }
 
-/* styling the MAIN  content */
+/* styling the MAIN  content  a super solution for your business*/
+
 #button2 {
+  position: absolute;
   background-color: #172339;
   color: white;
   cursor: pointer;
+  width: 12rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  top: 600px;
 }
 
 #button2:hover {
@@ -31,737 +38,1543 @@
   color: white;
 }
 
-#main-text-1 {
-  position: absolute;
-  font-family: Epilogue;
-  font-weight: 700;
-  font-size: 72px;
-  line-height: 70px;
-  letter-spacing: -1px;
-  color: #172339;
+#arc {
+  margin-left: 18.5rem;
+  width: 288px;
+  font-weight: bold;
 }
 
-#main-text-2 {
-  margin-top: 18rem;
+#super-solution-text {
+  position: absolute;
+  width: 635px;
   font-family: Epilogue;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 32px;
-  letter-spacing: 0.1px;
-  color: #49566d;
-  width: 22rem;
+  font-size: 72px;
+  line-height: 78px;
+  letter-spacing: -1px;
+
 }
 
-#line {
-  margin-left: 19rem;
-  width: 18rem;
+#marketing-sales-text {
+  position: absolute;
+  width: 350px;
+  margin-top: 4rem;
+  top: 399px;
+  font-family: Epilogue;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+}
+
+#middle-image {
+  margin-left: 10rem;
 }
 
 #image-hero {
-  width: 350px;
+  width: 400px;
   height: 600px;
-  margin-left: 7rem;
-}
-
-#main-text-3 {
-  margin-top: 9rem;
-}
-
-#header-4 {
-  color: #172339;
-  font-family: Epilogue;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 56px;
-  letter-spacing: -0.5px;
-}
-
-#header-6 {
-  color: #49566d;
-  font-family: Epilogue;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-  letter-spacing: 2.5px;
-}
-
-/* styling jeremy and text */
-#main2-text {
-  background-color: #172339;
-  margin-top: 13rem;
-  position: absolute;
-  padding-left: 12rem;
-  margin-left: 7.4rem;
-  width: 85%;
-  height: 31rem;
-  align-items: center;
-  border-radius: 0.7rem;
 }
 
 
-
-#button2 {
-  width: 16rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+#statistics-item-1 {
+  margin-top: 8rem;
+  
+  width:120px;
+  height: 83px;
+  padding-left: 3rem;
+ 
 }
 
-#line2 {
- padding-left: 6rem;
- padding-right: 3rem;
- padding-bottom: 10rem;
-}
-
-#jeremy1 {
-  width: 349px;
-  height: 544px;
-}
-
-#jeremy {
-  margin-top: 10rem;
-  padding-left: 14rem;
-  position: absolute;
-  z-index: 1;
-}
-
-#works {
-  font-family: Epilogue;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 56px;
-  letter-spacing: -0.5px;
-  font-size: 48px;
-}
-
-#works-text {
-  padding-top: 1rem;
-  font-family: Epilogue;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 35px;
-  letter-spacing: -0.1px;
-  font-size: 20px;
-  color: #f3ede7;
+#statistics-item-2 {
+  margin-top: 2rem;
+  
+  width:120px;
+  height: 83px;
+  padding-left: 3rem;
   
 }
 
-#works{
-  padding-top: 2rem;
+#statistics-item-3 {
+  margin-top: 2rem;
+  
+  width:120px;
+  height: 83px;
+  padding-left: 3rem;
+  
+}
+
+#stats1 {
+  font-family: Epilogue;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.5px;
+  color: #172339;
+}
+
+#stats2 {
+  font-family: Epilogue;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.5px;
+  color: #172339;
+}
+
+#stats3 {
+  font-family: Epilogue;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.5px;
+  color: #172339;
+}
+
+#stats-text1 {
+  font-family: Epilogue;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 2.5px;
+  color: #49566D;
+}
+
+#stats-text2 {
+  font-family: Epilogue;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 2.5px;
+  color: #49566D;
+}
+
+#stats-text3 {
+  font-family: Epilogue;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 2.5px;
+  color: #49566D;
+}
+
+/* styling for Jeremy and its related container*/
+
+#jeremy-text {
+  background-color: #172339;
+  margin-top: 8rem;
+  border-radius: 9px;
+  height:530px;
+  padding-top: 6rem;
+}
+
+#it-just-works {
+  height: 56px;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  color:#FAF8F6;
+  letter-spacing: -0.5px;
+}
+
+
+#paragraph {
+  width: 350px;
+  font-family: Epilogue;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  letter-spacing: 0.1px;
+  color: #F3EDE7;
 }
 
 #rob {
+  color: #FAF8F6;
+  letter-spacing: -0.18px;
   font-family: Epilogue;
   font-style: normal;
   font-weight: 700;
-  line-height: 32px;
-  letter-spacing: -0.18px;
   font-size: 18px;
-  color: #faf8f6;
-  padding-top: 1.5rem;
+ line-height: 32px;
 }
 
 #cmo {
-  font-family: Epilogue;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px;
+  color: #F3EDE7;
   letter-spacing: 2.5px;
-  font-size: 16px;
-  color: #f3ede7;
-}
-
-/* styling for footer */
-
-#footer {
-  background-color: #f3ede7;
-  display: flex;
-  margin-top: 32rem;
-  height: 25rem;
-  justify-content: space-around;
-  align-items: end;
-  padding-bottom: 5rem;
-}
-
-#copyright {
-  font-family: Epilogue;
+  font-family: 'Epilogue';
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
-  line-height: 32px;
+  font-size: 16px;
+  line-height: 26px;
 }
 
-#facebook {
-  cursor: pointer;
+#jeremy-text {
+  padding-left: 27rem;
 }
 
-#facebook:hover {
-  background: #172339;
-  mix-blend-mode: normal;
-  opacity: 0.5;
+#jeremy-image {
+  margin-top: 5rem;
+  position: absolute;
+  left: 200px;
+  width:390px;
 }
 
-#twitter {
-  cursor: pointer;
+#jeremy {
+  width: 375px;
+  height: 578px;
 }
 
-#twitter:hover {
-  background: #172339;
-  mix-blend-mode: normal;
-  opacity: 0.5;
+#arc-two {
+  margin-right: 3rem;
+  padding-top: 5rem;
 }
 
-#instagram {
-  cursor: pointer;
+#arc2 {
+  width: 100px;
 }
 
-#instagram:hover {
-  background: #172339;
-  mix-blend-mode: normal;
-  opacity: 0.5;
+
+/*style sheet for the footer */
+#footer {
+  background-color: #F3EDE7;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  height: 460px;
+  left: -4px;
+  top: 1331px;
+  z-index: -1;
+  margin-top: -12rem;
 }
 
-@media  screen and (max-width: 1024px) {
-  #image-hero {
-    width: 300px;
-    height: 600px;
-    margin-left: 1rem;
-  }
 
-  #main-text-1 {
+#Copyright {
+  background-color: #763edd;
+  margin-top: 20rem;
+  padding-top: 0.3rem;
+  height: 50px;
+  
+
+}
+
+#footer-logo {
+  background-color: #cb30e3;
+  height: 50px;
+  margin-top: 20rem;
+
+}
+
+#footer-icons {
+  background-color: #cb30e3;
+  height: 50px;
+  margin-top: 20rem;
+
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  #super-solution-text {
     position: absolute;
+    width: 480px;
     font-family: Epilogue;
-    font-weight: 700;
-    font-size: 62px;
-    line-height: 70px;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 78px;
     letter-spacing: -1px;
     color: #172339;
   }
 
-  
-#line {
-  margin-left: 16rem;
-  width: 15rem;
-}
-
-#jeremy1 {
-  width: 240px;
-}
-
-}
-
-
-
-
-
-@media screen and (max-width: 768px) {
-
-  #line2 {
-    position:absolute;
-    top: 11.5rem;
-
-  }
-  #j1 {
-    padding-right: 15rem;
-    padding-top: 3rem;
-  }
-
-  #main-text-3 {
-    display: flex;
-    justify-content: center;
+  #arc {
+    margin-left: 14rem;
+    width: 228px;
   }
 
   #image-hero {
-    width: 281px;
-    height: 518px;
-    padding-top: 2rem;
+    width: 320px;
+    height: 600px;
   }
 
-  #main-text-1 {
-    font-size: 60px;
+  #middle-image {
+    margin-left: 8rem;
+  }
+
+  #jeremy-image {
+    margin-top: 5rem;
+    position: absolute;
+    left: 60px;
+    width:300px;
+  }
+
+  #jeremy {
+    width: 300px;
+    height: 486px;
+  }
+
+  #jeremy-text {
+    background-color: #172339;
+    margin-top: 8rem;
+    border-radius: 9px;
+    height:440px;
+    padding-top: 3rem;
     
   }
 
-  #jeremy1 {
-    width: 220px;
-    height: 330px;
+  #arc-two {
+    margin-right: 2rem;
+    padding-top: 4rem;
   }
 
-  #jeremy {
-    margin-top: 2.5rem;
-    padding-bottom: 2rem;
-    padding-left: 18rem;
+  #arc2 {
+    width: 70px;
+  }
+
+  #paragraph-container {
+    margin-right: 7rem;
+  }
+  
+}
+
+@media screen and (max-width: 991px){
+  #super-solution-text {
     position: absolute;
-    z-index: 1;
+    width: 480px;
+    font-family: Epilogue;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 68px;
+    letter-spacing: -1px;
+    color: #172339;
   }
 
-  #main2-text {
+  #marketing-sales-text {
+    position: absolute;
+    width: 340px;
+    margin-top: 4rem;
+    top: 350px;
+    font-family: Epilogue;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.1px;
+    font-size: 18px;
+  }
+
+  #button2 {
+    position: absolute;
+    background-color: #172339;
+    color: white;
+    cursor: pointer;
+    width: 14rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    top: 550px;
+  }
+
+  #arc {
+    margin-left: 13rem;
+    width: 216px;
+  }
+
+  #image-hero {
+    width: 320px;
+    height: 540px;
+    margin-left: 10rem;
+  }
+
+  #statistics {
     display: flex;
-    flex-direction: column;
-    padding-top: 2rem;
-    height: 46rem;
-    margin-left: 3rem;
+    padding-left: 5rem;
   }
 
-  #works {
-    font-family: "Epilogue";
+  #statistics-item-1 {
+    margin-top: 2rem;
+   
+    width:120px;
+    height: 83px;
+    padding-left: 0rem;
+   justify-content: center;
+  }
+  
+  #statistics-item-2 {
+    margin-top: 2rem;
+    
+    width:120px;
+    height: 83px;
+    padding-left: 0rem;
+    
+  }
+  
+  #statistics-item-3 {
+    margin-top: 2rem;
+   
+    width:120px;
+    height: 83px;
+    padding-left: 0rem;
+    justify-self: center;
+  }
+
+  #stats1 {
+    padding-left: 1rem;
+  }
+
+  #stats2 {
+    padding-left: 2.3rem;
+  }
+
+  #stats-text1 {
+    padding-left: 1rem;
+  }
+
+  #stats-text2 {
+    padding-left: 0.7rem;
+  }
+
+  #stats-text3 {
+    padding-left: 2rem;
+  }
+
+  /* jeremy and text */
+
+  #it-just-works {
+    height: 56px;
+    font-family: 'Epilogue';
     font-style: normal;
     font-weight: 400;
     font-size: 38px;
-    line-height: 48px;
-    text-align: center;
-    color: #faf8f6;
+    line-height: 56px;
+    color:#FAF8F6;
+    letter-spacing: -0.5px;
   }
 
-  #works-text {
-    font-family: "Epilogue";
+  #paragraph {
+    width: 300px;
+    font-family: Epilogue;
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 32px;
-    text-align: center;
-    letter-spacing: 0.09px;
+    font-size: 14px;
+    line-height: 35px;
+    letter-spacing: 0.1px;
+    color: #F3EDE7;
   }
 
-  #rob {
-    text-align: center;
-    font-size: 15px;
-  }
-
-  #cmo {
-    text-align: center;
-    font-size: 13px;
-  }
-
-  #j1 {
-    margin-right: 9rem;
-    margin-bottom: 0.9rem;
-  }
-
-  #j2 {
-    margin-right: 9rem;
-    width: 20rem;
-  }
-
-  #footer {
-    background-color: #f3ede7;
-    display: flex;
-    margin-top: 36rem;
-    height: 38rem;
-    justify-content: space-around;
-    align-items: end;
-    padding-bottom: 5rem;
-  }
-}
-
-@media screen and (max-width: 574px) {
-  #main-text-3 {
-    justify-content: center;
-  }
-
-  #button2 {
-    width: 18rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-
-  #image-hero {
-    width: 281px;
-    height: 428px;
-  }
-
-  #main-text-1 {
-    font-size: 40px;
-  }
-
-  #line {
-    margin-left: 10rem;
-    width: 7rem;
-  }
-
-  #jeremy1 {
-    width: 180px;
-    height: 280px;
-  }
-
-  #jeremy {
+  #jeremy-image {
     margin-top: 5rem;
-    padding-bottom: 1rem;
-    padding-left: 14rem;
     position: absolute;
-    z-index: 1;
-  }
-
-  #works-text {
-    font-size: 12px;
-  }
-
-  #works {
-    font-size: 23px;
-  }
-
-  #rob {
-    font-size: 10px;
-  }
-
-  #cmo {
-    font-size: 10px;
-  }
-}
-
-@media screen and (max-width: 443px) {
-  #main-text-3 {
-    display: column;
-    justify-content: center;
-  }
-
-  #image-hero {
-    margin-top: 3rem;
-    width: 381px;
-    height: 268px;
-    margin-bottom: -3rem;
-  }
-
-  #main-text-1 {
-    font-size: 45px;
-    text-align: center;
-    line-height: 3rem;
-  }
-
-  #main-text-2 {
-    margin-top: 12rem;
-  }
-
-  #button2 {
-    width: 18rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-
-  #button1 {
-    width: 15rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-
-  #line {
-    margin-left: 10rem;
-    width: 7rem;
-  }
-
-  #jeremy1 {
-    width: 180px;
-    height: 280px;
-  }
-
-  #header-4 {
-    font-size: 45px;
-    margin-right: 2rem;
-  }
-
-  #header-6 {
-    font-size: 30px;
-  }
-
-  #main-text-3 {
-    display: flex;
-    flex-direction: column;
-    margin-left: 4rem;
-    margin-bottom: 3rem;
-    padding-left: 3rem;
-  }
-
-  #jeremy1 {
-    width: 220px;
-    height: 360px;
+    left: 150px;
+    width:250px;
   }
 
   #jeremy {
-    margin-top: 1rem;
-    padding-bottom: 0.3rem;
-    padding-left: 8rem;
+    
+    width: 220px;
+    height: 486px;
+  }
+
+  #jeremy-text {
+    background-color: #172339;
+    margin-top: 8rem;
+    border-radius: 9px;
+    height:440px;
+    padding-top: 3rem;
+    
+  }
+
+  #arc-two {
+    margin-right: 1rem;
+    padding-top: 5rem;
+  }
+
+  #arc2 {
+    width: 50px;
+  }
+
+  #paragraph-container {
+    margin-right: 9rem;
+  }
+
+
+}
+
+
+@media screen and (max-width: 885px) {
+  #jeremy-image {
+    margin-top: 5rem;
     position: absolute;
-    z-index: 1;
+    left: 100px;
+    width:250px;
   }
 
-  #j1 {
-    margin-right: 14rem;
-    margin-bottom: 0.9rem;
+  #jeremy {
+    
+    width: 220px;
+    height: 486px;
   }
 
-  #j2 {
-    margin-right: 13rem;
-    width: 14rem;
+}
+
+@media screen and (max-width: 819px) {
+  #jeremy-image {
+    margin-top: 5rem;
+    position: absolute;
+    left: 90px;
+    width:250px;
   }
 
-  #footer {
-    background-color: #f3ede7;
+  #jeremy {
+    
+    width: 220px;
+    height: 486px;
+  }
+
+}
+
+@media screen and (max-width: 768px){
+  #rob{
+    width: 250px;
+    text-align: center;
+    margin-left: 2rem;
+  }
+
+  #cmo {
+    width: 250px;
+    text-align: center;
+    margin-left: 2rem;
+  }
+
+  #it-just-works {
+    width: 250px;
+    height: 56px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 56px;
+    color:#FAF8F6;
+    letter-spacing: -0.5px;
+    text-align: center;
+    margin-left: 2rem;
+  }
+
+  #paragraph {
+    width: 500px;
+    font-family: Epilogue;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    letter-spacing: 0.1px;
+    color: #F3EDE7;
+    text-align: center;
+    margin-left: -5rem;
+  }
+
+  #jeremy-image {
+    margin-top: 5rem;
+    position: absolute;
+    left: 240px;
+    width:250px;
+  }
+
+  #jeremy {
+    
+    width: 200px;
+    height: 286px;
+  }
+
+  #jeremy-text {
+    background-color: #172339;
+    margin-top: 12rem;
+    border-radius: 9px;
+    height:600px;
+    padding-top: 3rem;
+    margin-right: 4rem;
+    
+    
+  }
+
+  #arc-two {
+    width:80px;
+    margin-left: -7rem;
+    margin-top: 4rem;
+    margin-bottom: -2.5rem;
+    height: 200px;
+  }
+
+  #arc2 {
+    width: 70px;
+  }
+
+  #paragraph-container {
+    margin-left: -15rem;
+    justify-content: center;
+  }
+  
+  #change-to-column {
     display: flex;
     flex-direction: column;
-    margin-top: 58.7rem;
-    height: 18rem;
-    align-items: center;
-    padding-bottom: 5rem;
   }
 
-  #main2-text {
+}
+
+@media screen and (max-width: 767px){
+  #first-container {
+    margin-left: -1rem;
+  }
+
+  #super-solution-text {
+    margin-top: 0rem;
+    position: absolute;
+    width: 480px;
+    font-family: Epilogue;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 58px;
+    letter-spacing: -1px;
+    color: #172339;
+  }
+
+  #marketing-sales-text {
+    position: absolute;
+    width: 300px;
+    margin-top: 4rem;
+    top: 310px;
+    font-family: Epilogue;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    font-size: 16px;
+  }
+
+  #middle-image {
+    margin-top: -3rem;
+  }
+
+  #image-hero {
+    top: 13rem;
+    width: 240px;
+    height: 450px;
+    margin-left: 11rem;
+  }
+
+  #statistics {
+    display: flex;
+   padding-left: -0rem;
+  }
+
+  #button2 {
+    position: absolute;
     background-color: #172339;
-    width: 85%;
+    color: white;
+    cursor: pointer;
+    width: 14rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    top: 460px;
   }
 
-  #main2-text {
-    height: 46rem;
-    width: 100%;
-    margin-left: 0.8rem;
+
+  /* jeremy container */
+  #arc {
+    margin-left: 13rem;
+    width: 200px;
   }
 
-  #header-4 {
-    font-size: 45px;
-    margin-left: 3rem;
+   #rob{
+    width: 250px;
+    text-align: center;
+    margin-left: -1.8rem;
   }
 
-  #header-6 {
+  #cmo {
+    width: 250px;
+    text-align: center;
+    margin-left: -1.8rem;
+  }
+
+  #it-just-works {
+    width: 250px;
+    background-color: #ffa84e;
+    height: 56px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 56px;
+    color:#FAF8F6;
+    letter-spacing: -0.5px;
+    text-align: center;
+    margin-left: -1.8rem;
+  }
+
+  #paragraph {
+    width: 500px;
+    font-family: Epilogue;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    letter-spacing: 0.1px;
+    color: #F3EDE7;
+    text-align: center;
+    margin-left: -10rem;
+  }
+
+  #jeremy-image {
+    margin-top: 5rem;
+    position: absolute;
+    left: 320px;
+    width:250px;
+  }
+
+  #jeremy {
+    
+    width: 200px;
+    height: 286px;
+  }
+
+  #jeremy-text {
+    background-color: #172339;
+    margin-top: 12rem;
+    border-radius: 9px;
+    height:600px;
+    padding-top: 3rem;
+    margin-right: 4rem;
+    
+    
+  }
+
+  #arc-two {
+    width:80px;
+    margin-left: -11rem;
+    margin-top: 4rem;
+    margin-bottom: -2.5rem;
+    height: 200px;
+  }
+
+  #arc2 {
+    width: 70px;
+  }
+
+  #paragraph-container {
+    margin-left: -15rem;
+    justify-content: center;
+  }
+  
+  #change-to-column {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+@media screen and (max-width: 732px) {
+  #jeremy {
+    width: 200px;
+    height: 286px;
+  }
+
+  #jeremy-image {
+    margin-top: 5rem;
+    position: absolute;
+    left: 280px;
+    width:250px;
+  }
+
+}
+
+@media screen and (max-width: 699px) {
+  #jeremy {
+    width: 200px;
+    height: 286px;
+  }
+
+  #jeremy-image {
+    margin-top: 5rem;
+    position: absolute;
+    left: 260px;
+    width:250px;
+  }
+
+}
+
+
+@media screen and (max-width: 667px) {
+  #jeremy {
+    width: 200px;
+    height: 286px;
+  }
+
+  #jeremy-image {
+    margin-top: 5rem;
+    position: absolute;
+    left: 240px;
+    width:250px;
+  }
+
+}
+
+
+@media screen and (max-width: 641px) {
+  #jeremy {
+    width: 200px;
+    height: 286px;
+  }
+
+  #jeremy-image {
+    margin-top: 5rem;
+    position: absolute;
+    left: 210px;
+    width:250px;
+  }
+
+}
+
+
+@media screen and (max-width: 613px) {
+  #jeremy {
+    width: 200px;
+    height: 286px;
+  }
+
+  #jeremy-image {
+    margin-top: 5rem;
+    position: absolute;
+    left: 190px;
+    width:250px;
+  }
+
+}
+
+
+
+@media screen and (max-width: 556px) {
+  #arc {
+    margin-left: 10.5rem;
+    width: 150px;
+  }
+
+  #super-solution-text {
+    margin-top: 1rem;
+    width: 360px;
+    font-family: Epilogue;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 48px;
+    letter-spacing: -1px;
+    color: #172339;
+  }
+
+  #marketing-sales-text {
+    position: absolute;
+    width: 270px;
+    margin-top: 4rem;
+    top: 300px;
+    font-family: Epilogue;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+
+  }
+
+  #button2 {
+    position: absolute;
+    background-color: #172339;
+    color: white;
+    cursor: pointer;
+    width: 14rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    top: 460px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  #image-hero {
+    width: 240px;
+    height: 450px;
+    margin-left: 7.5rem;
+  }
+
+  #middle-image {
+    margin-top: 0.1rem;
+  }
+}
+
+@media screen and (max-width: 554px){
+  #jeremy {
+    width: 200px;
+    height: 286px;
+  }
+
+  #jeremy-image {
+    margin-top: 5rem;
+    position: absolute;
+    left: 200px;
+    width:200px;
+  }
+
+  #arc-two {
+    width:80px;
+    margin-left: -11rem;
+    margin-top: 4rem;
+    margin-bottom: -2.5rem;
+    height: 200px;
+  }
+
+  #arc2 {
+    width: 60px;
+  }
+
+  #it-just-works {
+    width: 250px;
+    background-color: #ffa84e;
+    height: 56px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
     font-size: 30px;
-    padding-left: -2rem;
+    line-height: 56px;
+    color:#FAF8F6;
+    letter-spacing: -0.5px;
+    text-align: center;
+    margin-left: -1.8rem;
+  }
+
+  #paragraph {
+    width: 400px;
+    font-family: Epilogue;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    color: #F3EDE7;
+    text-align: center;
+    margin-left: -7rem;
+  }
+
+  #rob{
+    width: 250px;
+    text-align: center;
+    margin-left: -1.8rem;
+  }
+
+  #cmo {
+    width: 250px;
+    text-align: center;
+    margin-left: -1.8rem;
+  }
+}
+
+@media screen and (max-width: 531px) {
+  #middle-image {
+    margin-top: -2.5rem;
+  }
+  #image-hero {
+    width: 240px;
+    height: 450px;
+    margin-left: 7.5rem;
+  }
+}
+
+@media screen and (max-width: 498px) {
+  #super-solution-text {
+    width: 360px;
+    font-family: Epilogue;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 38px;
+    letter-spacing: -1px;
+    color: #172339;
+  }
+
+  #arc {
+    margin-left: 10.5rem;
+    width: 165px;
+  }
+
+  #marketing-sales-text {
+    position: absolute;
+    width: 230px;
+    top: 290px;
+    font-family: Epilogue;
+    font-weight: 400;
+    line-height: 17px;
+    font-size: 12px;
+    letter-spacing: 0.1px;
+
+  }
+
+  #image-hero {
+    width: 230px;
+    height: 450px;
+    margin-left: 4rem;
+  }
+
+   #middle-image {
+    margin-top: 0.1rem;
+  }
+
+  #statistics {
+    display: flex;
+  }
+
+#statistics-item-1 {
+  margin-right: -2rem;
+}
+
+#statistics-item-2 {
+  margin-right: -2rem;
+}
+
+}
+
+
+@media screen and (max-width: 496px){
+  #jeremy {
+    width: 200px;
+    height: 286px;
+  }
+
+  #jeremy-image {
+    margin-top: 5rem;
+    position: absolute;
+    left: 150px;
+    width:200px;
+  }
+
+  #arc-two {
+    width:80px;
+    margin-left: -14rem;
+    margin-top: 4rem;
+    margin-bottom: -2.5rem;
+    height: 200px;
+  }
+
+  #arc2 {
+    width: 60px;
+  }
+
+  #it-just-works {
+    width: 250px;
+    background-color: #ffa84e;
+    height: 56px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 56px;
+    color:#FAF8F6;
+    letter-spacing: -0.5px;
+    text-align: center;
+    margin-left: -4rem;
+  }
+
+  #paragraph {
+    width: 380px;
+    font-family: Epilogue;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.5px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color: #F3EDE7;
+    text-align: center;
+    margin-left: -9rem;
+  }
+
+  #rob{
+    width: 250px;
+    text-align: center;
+    margin-left: -4rem;
+  }
+
+  #cmo {
+    width: 250px;
+    text-align: center;
+    margin-left: -4rem;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  #middle-image {
+    margin-top: 0.2rem;
+    margin-left: 2rem;
+  }
+  #image-hero {
+    width: 220px;
+    height: 450px;
+    margin-left: 4rem;
+  }
+
+  #arc{
+    margin-left: 9.6rem;
+    width: 140px;
+  }
+
+  #super-solution-text {
+    top: 8.8rem;
+    left: 0.5rem;
+    width: 370px;
+    font-family: Epilogue;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 38px;
+    letter-spacing: -1px;
+    color: #172339;
+  }
+
+  #marketing-sales-text {
+    position: absolute;
+    width: 250px;
+    top: 260px;
+    left: 0.5rem;
+    font-family: Epilogue;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 13px;
+    letter-spacing: 0.1px;
+
+  }
+
+  #button2 {
+    position: absolute;
+    background-color: #172339;
+    color: white;
+    cursor: pointer;
+    width: 13rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    top: 460px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 425px){
+
+
+  
+  #super-solution-text {
+    top: 6.2rem;
+    left: 0.5rem;
+    width: 370px;
+    font-family: Epilogue;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 38px;
+    letter-spacing: -1px;
+    color: #172339;
+  }
+
+  #marketing-sales-text {
+    position: absolute;
+    width: 358px;
+    top: 210px;
+    left: 0.5rem;
+    font-family: Epilogue;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 18px;
+    letter-spacing: 0.1px;
+
+  }
+
+  #arc {
+    margin-left: 11rem;
+    width: 160px;
+  
+  }
+
+  #image-hero {
+    margin-top :23rem; 
+    margin-bottom:2rem;
+    width: 360px;
+    height: 270px;
+    margin-left: -14rem;
+  }
+
+  #button2 {
+    position: absolute;
+    background-color: #172339;
+    color: white;
+    cursor: pointer;
+    width: 16rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    top: 390px;
+    left: 0.5rem;
+  }
+
+  #statistics {
+    display: flex;
+    flex-direction: column;
+    padding-left: 6.5rem;
+  }
+
+  #statistics-item-1 {
+    margin-bottom: -2rem;
+  }
+  
+  #statistics-item-2 {
+    margin-bottom: -2rem;
+  }
+
+  /* Jeremy and i's text */
+
+  #jeremy-text {
+    margin-left: -2rem;
   }
 
 
+  #jeremy {
+    width: 180px;
+    height: 286px;
+  }
+
+  #jeremy-image {
+    margin-top: 5rem;
+    position: absolute;
+    left: 90px;
+    width:200px;
+  }
+
+  #arc-two {
+    width:80px;
+    margin-left: -15rem;
+    margin-top: 4rem;
+    margin-bottom: -2.5rem;
+    height: 200px;
+  }
+
+  #arc2 {
+    width: 60px;
+  }
+
+  #it-just-works {
+    width: 200px;
+    background-color: #ffa84e;
+    height: 56px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 56px;
+    color:#FAF8F6;
+    letter-spacing: -0.5px;
+    text-align: center;
+    margin-left: -4.4rem;
+  }
+
+  #paragraph {
+    width: 380px;
+    font-family: Epilogue;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.5px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color: #F3EDE7;
+    text-align: center;
+    margin-left: -8.5rem;
+  }
+
+  #rob{
+    width: 250px;
+    text-align: center;
+    margin-left: -5.5rem;
+  }
+
+  #cmo {
+    width: 250px;
+    text-align: center;
+    margin-left: -5.5rem;
+  }
 }
 
 @media screen and (max-width: 375px){
-  #main-text-3 {
-    display: column;
-    justify-content: center;
+  #super-solution-text {
+    top: 6.2rem;
+    left: 0.3rem;
+    width: 325px;
+    font-family: Epilogue;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 38px;
+    letter-spacing: -1px;
+    color: #172339;
+  }
+
+  #marketing-sales-text {
+    position: absolute;
+    width: 322px;
+    top: 210px;
+    left: 0.1rem;
+    font-family: Epilogue;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 17px;
+    letter-spacing: 0.1px;
+
+  }
+
+  #arc {
+    margin-left: 9.5rem;
+    width: 140px;
   }
 
   #image-hero {
-    margin-top: 3rem;
-    width: 324px;
-    height: 258px;
-    margin-bottom: -3rem;
-  }
-
-  #main-text-1 {
-    font-size: 41px;
-    text-align: center;
-    line-height: 3rem;
-  }
-
-  #main-text-2 {
-    margin-top: 12rem;
+    margin-top :23rem; 
+    margin-bottom:2rem;
+    width: 330px;
+    height: 270px;
+    margin-left: -13rem;
   }
 
   #button2 {
-    width: 18rem;
+    position: absolute;
+    background-color: #172339;
+    color: white;
+    cursor: pointer;
+    width: 16rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    top: 390px;
+    left: 0.5rem;
   }
 
-  #button1 {
-    width: 15rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-
-   #line {
-    margin-left: 10rem;
-    width: 7rem;
-  }
-
-  #jeremy1 {
-    width: 180px;
-    height: 280px;
-  }
-  #header-4 {
-    font-size: 45px;
-    margin-right: 2rem;
-  }
-
-  #header-6 {
-    font-size: 30px;
-  }
-
-  #main-text-3 {
+  #statistics {
     display: flex;
     flex-direction: column;
-    margin-left: 1rem;
-    margin-bottom: 3rem;
-    padding-left: 3rem;
+    padding-left: 4.8rem;
   }
 
-  #jeremy1 {
-    width: 220px;
-    height: 360px;
+  #statistics-item-1 {
+    margin-bottom: -2rem;
   }
+  
+  #statistics-item-2 {
+    margin-bottom: -2rem;
+  }
+
+  /* Jeremy and i's text */
+
+  #jeremy-text {
+    margin-left: -5.5rem;
+  }
+
 
   #jeremy {
-    margin-top: 1rem;
-    padding-bottom: 0.3rem;
-    padding-left: 6rem;
+    width: 180px;
+    height: 286px;
+  }
+
+  #jeremy-image {
+    margin-top: 5rem;
     position: absolute;
-    z-index: 1;
+    left: 60px;
+    width:200px;
   }
 
-  #j1 {
-    margin-right: 14rem;
-    margin-bottom: 0.9rem;
+  #arc-two {
+    width:80px;
+    margin-left: -12rem;
+    margin-top: 4rem;
+    margin-bottom: -2.5rem;
+    height: 200px;
   }
 
-  #j2 {
-    margin-right: 13rem;
-    width: 14rem;
+  #arc2 {
+    width: 60px;
   }
 
-  #footer {
-    background-color: #f3ede7;
-    display: flex;
-    flex-direction: column;
-    margin-top: 58.7rem;
-    height: 18rem;
-    align-items: center;
-    padding-bottom: 5rem;
+  #it-just-works {
+    width: 200px;
+    background-color: #ffa84e;
+    height: 56px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 56px;
+    color:#FAF8F6;
+    letter-spacing: -0.5px;
+    text-align: center;
+    margin-left: -1.1rem;
   }
 
-  #main2-text {
-    background-color: #172339;
-    width: 85%;
+  #paragraph {
+    width: 380px;
+    font-family: Epilogue;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.5px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color: #F3EDE7;
+    text-align: center;
+    margin-left: -8.5rem;
   }
 
-  #main2-text {
-    height: 46rem;
-    width: 100%;
-    margin-left: 0.8rem;
+  #rob{
+    width: 250px;
+    text-align: center;
+    margin-left: -2.3rem;
   }
 
-  #header-4 {
-    font-size: 45px;
-    margin-left: 3rem;
+  #cmo {
+    width: 250px;
+    text-align: center;
+    margin-left: -2.3rem;
   }
-
-  #header-6 {
-    font-size: 30px;
-    padding-left: -2rem;
-  }
-
- 
-
 }
 
-@media screen and (max-width: 320px) {
-  #main-text-3 {
-    display: column;
-    justify-content: center;
+
+@media screen  and (max-width: 320px) {
+  #super-solution-text {
+    top: 6.2rem;
+    left: 0.3rem;
+    width: 320px;
+    font-family: Epilogue;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 38px;
+    letter-spacing: -1px;
+    color: #172339;
+  }
+
+  #marketing-sales-text {
+    position: absolute;
+    width: 322px;
+    top: 210px;
+    left: 0.1rem;
+    font-family: Epilogue;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 17px;
+    letter-spacing: 0.1px;
+
+  }
+
+  #arc {
+    margin-left: 9.5rem;
+    width: 140px;
   }
 
   #image-hero {
-    margin-top: 3rem;
-    width: 324px;
-    height: 258px;
-    margin-bottom: -3rem;
-  }
-
-  #main-text-1 {
-    font-size: 38px;
-    text-align: center;
-    line-height: 3rem;
-  }
-
-  #main-text-2 {
-    margin-top: 12rem;
+    margin-top :21rem; 
+    margin-bottom:2rem;
+    width: 300px;
+    height: 270px;
+    margin-left: -2rem;
   }
 
   #button2 {
-    width: 18rem;
+    position: absolute;
+    background-color: #172339;
+    color: white;
+    cursor: pointer;
+    width: 16rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    top: 390px;
+    left: 0.5rem;
   }
 
-  #button1 {
-    width: 15rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-
-  #line {
-    margin-left: 10rem;
-    width: 7rem;
-  }
-
-  #jeremy1 {
-    width: 180px;
-    height: 280px;
-  }
-  #header-4 {
-    font-size: 45px;
-    margin-right: 2rem;
-  }
-
-  #header-6 {
-    font-size: 30px;
-  }
-
-  #main-text-3 {
+  #statistics {
     display: flex;
     flex-direction: column;
-    margin-left: 1rem;
-    margin-bottom: 3rem;
-    padding-left: 3rem;
+    padding-left: 3.8rem;
   }
 
-  #jeremy1 {
-    width: 220px;
-    height: 360px;
+  #statistics-item-1 {
+    margin-bottom: -2rem;
   }
+  
+  #statistics-item-2 {
+    margin-bottom: -2rem;
+  }
+  #button1 {
+    background-color: white;
+    border-color: #172339;
+    cursor: pointer;
+    width: 10.7rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  /* Jeremy and i's text */
+
+  #jeremy-text {
+    margin-left: -7.5rem;
+  }
+
 
   #jeremy {
-    margin-top: 1rem;
-    padding-bottom: 0.3rem;
-    padding-left: 3.7rem;
+    width: 180px;
+    height: 286px;
+  }
+
+  #jeremy-image {
+    margin-top: 5rem;
     position: absolute;
-    z-index: 1;
+    left: 60px;
+    width:200px;
   }
 
-  #j1 {
-    margin-right: 14rem;
-    margin-bottom: 0.9rem;
+  #arc-two {
+    width:80px;
+    margin-left: -12rem;
+    margin-top: 4rem;
+    margin-bottom: -2.5rem;
+    height: 200px;
   }
 
-  #j2 {
-    margin-right: 13rem;
-    width: 14rem;
+  #arc2 {
+    width: 60px;
   }
 
-  #footer {
-    background-color: #f3ede7;
-    display: flex;
-    flex-direction: column;
-    margin-top: 58.7rem;
-    height: 18rem;
-    align-items: center;
-    padding-bottom: 5rem;
+  #it-just-works {
+    width: 200px;
+    background-color: #ffa84e;
+    height: 56px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 56px;
+    color:#FAF8F6;
+    letter-spacing: -0.5px;
+    text-align: center;
+    margin-left: -1.1rem;
   }
 
-  #main2-text {
-    background-color: #172339;
-    width: 85%;
+  #paragraph {
+    width: 380px;
+    font-family: Epilogue;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.5px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color: #F3EDE7;
+    text-align: center;
+    margin-left: -8.5rem;
   }
 
-  #main2-text {
-    height: 46rem;
-    width: 100%;
-    margin-left: 0.8rem;
+  #rob{
+    width: 250px;
+    text-align: center;
+    margin-left: -2.3rem;
   }
 
-  #header-4 {
-    font-size: 45px;
-    margin-left: 3rem;
+  #cmo {
+    width: 250px;
+    text-align: center;
+    margin-left: -2.3rem;
   }
-
-  #header-6 {
-    font-size: 30px;
-    padding-left: -2rem;
-  }
-
- 
 }
